@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EjercicioAbstraccion
+﻿namespace EjercicioAbstraccion
 {
-    internal class FormulaMatematica
+    public abstract class FormulaMatematica
     {
+        public abstract double Calcular();
+        public abstract void imprimir();
     }
 }
